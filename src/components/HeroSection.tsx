@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         {/* Hero Card with clip-path */}
         <div 
-          className="relative max-w-6xl mx-auto grid lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-14 p-8 md:p-12 lg:p-16 rounded-3xl"
+          className="relative w-full grid lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-14 p-8 md:p-12 lg:p-16 rounded-3xl"
           style={{
             background: 'linear-gradient(135deg, hsl(222 47% 8%) 0%, hsl(222 47% 4%) 100%)',
             clipPath: 'polygon(0% 0%, 94% 0%, 100% 8%, 100% 100%, 6% 100%, 0% 92%)',
