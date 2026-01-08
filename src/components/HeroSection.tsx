@@ -15,8 +15,8 @@ const HeroSection = () => {
           style={{
             background: "linear-gradient(135deg, hsl(222 47% 8%) 0%, hsl(222 47% 4%) 100%)",
             clipPath: "polygon(0% 0%, 94% 0%, 100% 8%, 100% 100%, 6% 100%, 0% 92%)",
-            border: "1px solid hsl(145 85% 50% / 0.25)",
-            boxShadow: "0 0 80px 30px hsl(145 85% 50% / 0.15), 0 0 150px 60px hsl(145 85% 50% / 0.08), 0 40px 80px hsl(0 0% 0% / 0.6)",
+            border: "1px solid hsl(145 85% 50% / 0.4)",
+            boxShadow: "0 0 60px 20px hsl(145 85% 50% / 0.35), 0 0 120px 50px hsl(145 85% 50% / 0.2), 0 0 200px 80px hsl(145 85% 50% / 0.1), 0 40px 80px hsl(0 0% 0% / 0.6)",
           }}
         >
           {/* Left Content */}
