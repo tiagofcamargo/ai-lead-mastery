@@ -3,7 +3,7 @@ import { Play, Sparkles, MessageCircle, Clock } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center pt-20 pb-12 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-6 overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_hsl(222_47%_8%)_0%,_hsl(222_47%_3%)_100%)]" />
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-gradient-glow opacity-30" />
@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         {/* Hero Card with clip-path */}
         <div 
-          className="relative max-w-6xl mx-auto grid lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-12 p-6 md:p-10 lg:p-12 rounded-3xl"
+          className="relative max-w-6xl mx-auto grid lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-14 p-8 md:p-12 lg:p-16 rounded-3xl"
           style={{
             background: 'linear-gradient(135deg, hsl(222 47% 8%) 0%, hsl(222 47% 4%) 100%)',
             clipPath: 'polygon(0% 0%, 94% 0%, 100% 8%, 100% 100%, 6% 100%, 0% 92%)',
