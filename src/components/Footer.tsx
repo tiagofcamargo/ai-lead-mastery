@@ -10,8 +10,7 @@ const Footer = () => {
         <div className="absolute inset-0 bg-gradient-glow opacity-30" />
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Sua Revolução no Atendimento{" "}
-            <span className="text-gradient-primary">Começa em 10 Minutos</span>
+            Sua Revolução no Atendimento <span className="text-gradient-primary">Começa em 10 Minutos</span>
           </h2>
           <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
             Pronto para transformar seus leads em resultados? Comece seu teste grátis agora.
@@ -33,9 +32,10 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Logo & Description */}
             <div className="md:col-span-2">
-              <img src={logo} alt="Doctor AI" className="h-50 w-auto mb-4" />
+              <img src={logo} alt="Doctor AI" className="h-32 w-auto mb-4" />
               <p className="text-sm text-muted-foreground max-w-sm">
-                A primeira plataforma com Inteligência Artificial proprietária para gestão de leads. Criado por quem gerencia mais de R$ 8 milhões em anúncios mensais.
+                A primeira plataforma com Inteligência Artificial proprietária para gestão de leads. Criado por quem
+                gerencia mais de R$ 8 milhões em anúncios mensais.
               </p>
             </div>
 
@@ -43,10 +43,26 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold mb-4">Produto</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#funcionalidades" className="hover:text-primary transition-colors">Funcionalidades</a></li>
-                <li><a href="#planos" className="hover:text-primary transition-colors">Planos</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Integrações</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Atualizações</a></li>
+                <li>
+                  <a href="#funcionalidades" className="hover:text-primary transition-colors">
+                    Funcionalidades
+                  </a>
+                </li>
+                <li>
+                  <a href="#planos" className="hover:text-primary transition-colors">
+                    Planos
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Integrações
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Atualizações
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -54,10 +70,26 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold mb-4">Suporte</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">Central de Ajuda</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Contato</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Política de Privacidade</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Termos de Uso</a></li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Central de Ajuda
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Contato
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Política de Privacidade
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Termos de Uso
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
