@@ -107,16 +107,37 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Decorative Elements */}
-      <div className="absolute bottom-20 left-10 w-2 h-2 rounded-full bg-primary animate-pulse" />
-      <div
-        className="absolute top-40 right-20 w-3 h-3 rounded-full bg-secondary animate-pulse"
-        style={{ animationDelay: "0.5s" }}
-      />
-      <div
-        className="absolute bottom-40 right-10 w-2 h-2 rounded-full bg-primary/50 animate-pulse"
-        style={{ animationDelay: "1s" }}
-      />
+      {/* Decorative Animated Dots */}
+      {/* Left side dots */}
+      <div className="absolute top-32 left-8 w-2 h-2 rounded-full bg-primary animate-pulse" />
+      <div className="absolute top-60 left-16 w-3 h-3 rounded-full bg-primary/60 animate-ping" style={{ animationDuration: "2s" }} />
+      <div className="absolute top-[45%] left-6 w-1.5 h-1.5 rounded-full bg-secondary animate-pulse" style={{ animationDelay: "0.3s" }} />
+      <div className="absolute top-[60%] left-20 w-2 h-2 rounded-full bg-primary/40 animate-ping" style={{ animationDuration: "3s", animationDelay: "0.5s" }} />
+      <div className="absolute bottom-40 left-12 w-2.5 h-2.5 rounded-full bg-primary animate-pulse" style={{ animationDelay: "0.7s" }} />
+      <div className="absolute bottom-24 left-6 w-1.5 h-1.5 rounded-full bg-secondary/70 animate-ping" style={{ animationDuration: "2.5s" }} />
+      <div className="absolute bottom-60 left-24 w-2 h-2 rounded-full bg-primary/50 animate-pulse" style={{ animationDelay: "1.2s" }} />
+      
+      {/* Right side dots */}
+      <div className="absolute top-28 right-12 w-2 h-2 rounded-full bg-secondary animate-pulse" style={{ animationDelay: "0.2s" }} />
+      <div className="absolute top-48 right-24 w-3 h-3 rounded-full bg-primary/50 animate-ping" style={{ animationDuration: "2.5s", animationDelay: "0.4s" }} />
+      <div className="absolute top-[40%] right-8 w-1.5 h-1.5 rounded-full bg-primary animate-pulse" style={{ animationDelay: "0.6s" }} />
+      <div className="absolute top-[55%] right-20 w-2 h-2 rounded-full bg-secondary/60 animate-ping" style={{ animationDuration: "3s", animationDelay: "0.8s" }} />
+      <div className="absolute bottom-48 right-16 w-2.5 h-2.5 rounded-full bg-primary animate-pulse" style={{ animationDelay: "1s" }} />
+      <div className="absolute bottom-28 right-6 w-2 h-2 rounded-full bg-primary/40 animate-ping" style={{ animationDuration: "2s", animationDelay: "1.3s" }} />
+      <div className="absolute bottom-64 right-28 w-1.5 h-1.5 rounded-full bg-secondary animate-pulse" style={{ animationDelay: "0.9s" }} />
+      
+      {/* Top scattered dots */}
+      <div className="absolute top-20 left-[30%] w-1.5 h-1.5 rounded-full bg-primary/60 animate-ping" style={{ animationDuration: "2.8s" }} />
+      <div className="absolute top-16 right-[35%] w-2 h-2 rounded-full bg-secondary/50 animate-pulse" style={{ animationDelay: "0.4s" }} />
+      
+      {/* Bottom scattered dots */}
+      <div className="absolute bottom-16 left-[25%] w-2 h-2 rounded-full bg-primary animate-pulse" style={{ animationDelay: "1.1s" }} />
+      <div className="absolute bottom-12 right-[30%] w-1.5 h-1.5 rounded-full bg-secondary/60 animate-ping" style={{ animationDuration: "2.2s", animationDelay: "0.6s" }} />
+      
+      {/* Floating larger orbs with glow */}
+      <div className="absolute top-36 left-[15%] w-4 h-4 rounded-full bg-primary/20 blur-sm animate-pulse" style={{ animationDuration: "4s" }} />
+      <div className="absolute bottom-36 right-[12%] w-5 h-5 rounded-full bg-secondary/15 blur-sm animate-pulse" style={{ animationDuration: "5s", animationDelay: "1s" }} />
+      <div className="absolute top-[50%] left-4 w-3 h-3 rounded-full bg-primary/25 blur-[2px] animate-ping" style={{ animationDuration: "4s", animationDelay: "2s" }} />
     </section>
   );
 };
