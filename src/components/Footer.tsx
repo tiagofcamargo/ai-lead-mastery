@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Logo & Description */}
             <div className="md:col-span-2">
-              <img src={logo} alt="Doctor AI" className="h-32 w-auto mb-4" />
+              <img src={logo} alt="Doctor AI" className="h-60 w-auto mb-4" />
               <p className="text-sm text-muted-foreground max-w-sm">
                 A primeira plataforma com Inteligência Artificial proprietária para gestão de leads. Criado por quem
                 gerencia mais de R$ 8 milhões em anúncios mensais.
