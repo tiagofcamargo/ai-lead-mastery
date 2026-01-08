@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center pt-20 pb-6 overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_hsl(222_47%_8%)_0%,_hsl(222_47%_3%)_100%)]" />
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-gradient-glow opacity-30" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-gradient-glow opacity-80" />
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Hero Card with clip-path */}
@@ -17,7 +17,7 @@ const HeroSection = () => {
             clipPath: "polygon(0% 0%, 94% 0%, 100% 8%, 100% 100%, 6% 100%, 0% 92%)",
             border: "1px solid hsl(145 85% 50% / 0.4)",
             boxShadow:
-              "0 0 60px 20px hsl(145 85% 50% / 0.75), 0 0 120px 50px hsl(145 85% 50% / 0.2), 0 0 200px 80px hsl(145 85% 50% / 0.1), 0 40px 80px hsl(0 0% 0% / 0.6)",
+              "0 0 60px 20px hsl(145 85% 50% / 0.35), 0 0 120px 50px hsl(145 85% 50% / 0.2), 0 0 200px 80px hsl(145 85% 50% / 0.1), 0 40px 80px hsl(0 0% 0% / 0.6)",
           }}
         >
           {/* Left Content */}
