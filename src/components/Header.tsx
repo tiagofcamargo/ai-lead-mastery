@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, User } from "lucide-react";
 import logo from "@/assets/doctor-ai-logo.png";
 
 const Header = () => {
@@ -35,11 +35,17 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* CTA Button + Login */}
+          <div className="hidden md:flex items-center gap-3">
             <Button variant="outline" size="sm">
               Teste Grátis por 3 Dias
             </Button>
+            <button 
+              className="p-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+              aria-label="Login"
+            >
+              <User size={20} />
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -66,6 +72,13 @@ const Header = () => {
             <Button variant="outline" size="sm" className="w-full mt-2">
               Teste Grátis por 3 Dias
             </Button>
+            <button 
+              className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary py-2 mt-2"
+              aria-label="Login"
+            >
+              <User size={18} />
+              Entrar
+            </button>
           </nav>
         </div>
       )}
