@@ -79,7 +79,9 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://www.instagram.com/doctoraioficial/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
             >
               <Instagram className="w-4 h-4" />
