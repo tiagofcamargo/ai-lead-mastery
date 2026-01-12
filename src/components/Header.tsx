@@ -37,8 +37,10 @@ const Header = () => {
 
           {/* CTA Button + Login */}
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="outline" size="sm">
-              Teste Grátis por 3 Dias
+            <Button variant="outline" size="sm" asChild>
+              <a href="https://api.whatsapp.com/send/?phone=5511947806884&text=%EF%BF%BD+Ol%C3%A1%21+Obrigado+por+entrar+em+contato.+Como+posso+ajudar+voc%C3%AA+hoje%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                Teste Grátis por 3 Dias
+              </a>
             </Button>
             <button 
               className="p-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
@@ -69,8 +71,10 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="outline" size="sm" className="w-full mt-2">
-              Teste Grátis por 3 Dias
+            <Button variant="outline" size="sm" className="w-full mt-2" asChild>
+              <a href="https://api.whatsapp.com/send/?phone=5511947806884&text=%EF%BF%BD+Ol%C3%A1%21+Obrigado+por+entrar+em+contato.+Como+posso+ajudar+voc%C3%AA+hoje%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                Teste Grátis por 3 Dias
+              </a>
             </Button>
             <button 
               className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary py-2 mt-2"

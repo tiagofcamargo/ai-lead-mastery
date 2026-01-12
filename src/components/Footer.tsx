@@ -16,8 +16,10 @@ const Footer = () => {
             Pronto para transformar seus leads em resultados? Comece seu teste grátis agora.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="hero" size="xl">
-              Começar Teste Grátis de 3 Dias
+            <Button variant="hero" size="xl" asChild>
+              <a href="https://api.whatsapp.com/send/?phone=5511947806884&text=%EF%BF%BD+Ol%C3%A1%21+Obrigado+por+entrar+em+contato.+Como+posso+ajudar+voc%C3%AA+hoje%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                Começar Teste Grátis de 3 Dias
+              </a>
             </Button>
             <Button variant="heroOutline" size="lg">
               Falar com um Especialista
