@@ -42,12 +42,15 @@ const Header = () => {
                 Teste Grátis por 3 Dias
               </a>
             </Button>
-            <button 
+            <a 
+              href="https://www.doctorai.com.br/login"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-2 rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
               aria-label="Login"
             >
               <User size={20} />
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -76,13 +79,16 @@ const Header = () => {
                 Teste Grátis por 3 Dias
               </a>
             </Button>
-            <button 
+            <a 
+              href="https://www.doctorai.com.br/login"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary py-2 mt-2"
               aria-label="Login"
             >
               <User size={18} />
               Entrar
-            </button>
+            </a>
           </nav>
         </div>
       )}
