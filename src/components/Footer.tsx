@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Linkedin, Instagram, Youtube } from "lucide-react";
+import { Instagram } from "lucide-react";
 import logo from "@/assets/footer-logo.png";
 
 const Footer = () => {
@@ -85,18 +85,6 @@ const Footer = () => {
               className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
             >
               <Instagram className="w-4 h-4" />
-            </a>
-            <a
-              href="#"
-              className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-            >
-              <Linkedin className="w-4 h-4" />
-            </a>
-            <a
-              href="#"
-              className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-            >
-              <Youtube className="w-4 h-4" />
             </a>
           </div>
         </div>
