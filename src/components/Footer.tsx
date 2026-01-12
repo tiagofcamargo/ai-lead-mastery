@@ -17,7 +17,11 @@ const Footer = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button variant="hero" size="xl" asChild>
-              <a href="https://api.whatsapp.com/send/?phone=5511947806884&text=%EF%BF%BD+Ol%C3%A1%21+Obrigado+por+entrar+em+contato.+Como+posso+ajudar+voc%C3%AA+hoje%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://api.whatsapp.com/send/?phone=5511947806884&text=%EF%BF%BD+Ol%C3%A1%21+Obrigado+por+entrar+em+contato.+Como+posso+ajudar+voc%C3%AA+hoje%3F&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Começar Teste Grátis de 3 Dias
               </a>
             </Button>
@@ -34,7 +38,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Logo & Description */}
             <div className="md:col-span-2">
-              <img src={logo} alt="Doctor AI" className="h-60 w-auto mb-4" />
+              <img src={logo} alt="Doctor AI" className="h-32 w-auto mb-4" />
               <p className="text-sm text-muted-foreground max-w-sm">
                 A primeira plataforma com Inteligência Artificial proprietária para gestão de leads. Criado por quem
                 gerencia mais de R$ 8 milhões em anúncios mensais.
