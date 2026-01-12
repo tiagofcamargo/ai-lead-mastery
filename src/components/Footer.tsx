@@ -40,7 +40,10 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* Links */}
+            {/* Spacer column */}
+            <div></div>
+
+            {/* Links - far right */}
             <div>
               <h4 className="font-semibold mb-4">Produto</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
