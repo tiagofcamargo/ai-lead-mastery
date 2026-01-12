@@ -38,6 +38,15 @@ const Footer = () => {
                 A primeira plataforma com Inteligência Artificial proprietária para gestão de leads. Criado por quem
                 gerencia mais de R$ 8 milhões em anúncios mensais.
               </p>
+              <div className="flex items-center gap-4 mt-6">
+                <a
+                  href="https://www.instagram.com/doctoraioficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+                ><Instagram className="w-4 h-4" />
+            </a>
+          </div>
             </div>
 
             {/* Spacer column */}
@@ -80,16 +89,6 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Doctor AI. Todos os direitos reservados.
           </p>
-          <div className="flex items-center gap-4">
-            <a
-              href="https://www.instagram.com/doctoraioficial/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-            >
-              <Instagram className="w-4 h-4" />
-            </a>
-          </div>
         </div>
       </div>
     </footer>
