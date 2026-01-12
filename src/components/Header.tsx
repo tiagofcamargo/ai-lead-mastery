@@ -20,7 +20,7 @@ const Header = () => {
           {/* Logo */}
           <a href="#" className="flex flex-col items-center gap-0.5">
             <img src={logo} alt="Doctor AI" className="h-10 w-auto" />
-            <span className="text-xs font-bold text-white tracking-wide">Doctor AI</span>
+            <span className="text-sm font-medium text-muted-foreground">Doctor AI</span>
           </a>
 
           {/* Desktop Navigation */}
