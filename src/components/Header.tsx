@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, User } from "lucide-react";
-import logo from "@/assets/doctor-ai-logo.png";
+import logo from "@/assets/footer-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,8 +18,9 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <img src={logo} alt="Doctor AI" className="h-32 w-auto" />
+          <a href="#" className="flex flex-col items-center gap-0.5">
+            <img src={logo} alt="Doctor AI" className="h-10 w-auto" />
+            <span className="text-xs font-bold text-white tracking-wide">Doctor AI</span>
           </a>
 
           {/* Desktop Navigation */}
