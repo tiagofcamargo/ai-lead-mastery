@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Linkedin, Instagram, Youtube } from "lucide-react";
-import logo from "@/assets/doctor-ai-logo.png";
+import logo from "@/assets/footer-logo.png";
 
 const Footer = () => {
   return (
