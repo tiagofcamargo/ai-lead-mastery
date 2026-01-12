@@ -51,8 +51,10 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row items-start gap-3 mb-6 animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             >
-              <Button variant="hero" size="lg">
-                Começar Teste Grátis
+              <Button variant="hero" size="lg" asChild>
+                <a href="https://api.whatsapp.com/send/?phone=5511947806884&text=%EF%BF%BD+Ol%C3%A1%21+Obrigado+por+entrar+em+contato.+Como+posso+ajudar+voc%C3%AA+hoje%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                  Começar Teste Grátis
+                </a>
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
                 <a href="#video-demo">
