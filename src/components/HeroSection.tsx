@@ -3,15 +3,17 @@ import { Play, Sparkles, MessageCircle, Clock } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-6 overflow-hidden">
+   <section className="relative min-h-screen flex items-center pt-32 pb-28 overflow-hidden">
+
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_hsl(222_47%_8%)_0%,_hsl(222_47%_3%)_100%)]" />
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-gradient-glow opacity-80" />
 
-      <div className="container mx-auto px-4 relative z-10">
+     <div className="max-w-9xl mx-auto px-6 relative z-10 ">
+
         {/* Hero Card with clip-path */}
         <div
-          className="relative w-full grid lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-14 p-8 md:p-12 lg:py-20 lg:px-16 rounded-3xl"
+          className="relative w-full grid lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-14 p-8 md:p-12 lg:py-20 lg:px-16 rounded-3xl h-[50rem]"
           style={{
             background: "linear-gradient(135deg, hsl(222 47% 8%) 0%, hsl(222 47% 4%) 100%)",
             clipPath: "polygon(0% 0%, 94% 0%, 100% 8%, 100% 100%, 6% 100%, 0% 92%)",
@@ -23,19 +25,19 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="flex flex-col justify-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/40 bg-transparent w-fit mb-6 animate-fade-in">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/40 bg-transparent w-fit mb-6 animate-fade-in ">
               <Sparkles className="w-4 h-4 text-primary" />
               <span className="text-sm font-medium text-primary">IA Proprietária • WhatsApp em 10 min</span>
             </div>
 
             {/* Headline */}
-            <h1
-              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.1] mb-4 animate-fade-in"
-              style={{ animationDelay: "0.1s" }}
-            >
-              A Evolução da Gestão de Leads com{" "}
-              <span className="text-gradient-primary">Inteligência Artificial Real</span>
-            </h1>
+           <h1
+  className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.08] mb-6 animate-fade-in"
+  style={{ animationDelay: "0.1s" }}
+>
+  A Evolução da Gestão de Leads com{" "}
+  <span className="text-gradient-primary">Inteligência Artificial Real</span>
+</h1>
 
             {/* Subheadline */}
             <p
@@ -82,9 +84,9 @@ const HeroSection = () => {
           </div>
 
           {/* Right Content - Video */}
-          <div id="video-demo" className="flex items-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
+                    <div id="video-demo" className="flex items-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <div className="relative w-full rounded-2xl overflow-hidden bg-black shadow-[0_20px_50px_rgba(0,0,0,0.6)]">
-              <div className="aspect-video">
+              <div className="aspect-[16/10] lg:aspect-[16/9]">
                 <iframe
                   src="https://www.youtube.com/embed/icV6bmyVVCE"
                   title="Doctor AI - Inteligência Artificial que Converte Leads"
