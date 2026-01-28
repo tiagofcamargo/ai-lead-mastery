@@ -4,6 +4,54 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===== MARQUEE LOGOS ===== */
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* espaço real entre logos */
+  animation: scroll 12s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 auto; /* largura natural do logo */
+}
+
+.logo-img {
+  height: 50px;
+width: 200px;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(0.65);
+  transition: all 0.3s ease;
+}
+
+.logo-img:hover {
+  filter: grayscale(0%) opacity(1);
+  transform: scale(1.05);
+}
+
+/* movimento contínuo */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* pausa no hover */
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+
 @layer base {
   :root {
     /* Doctor AI Dark Theme - Futuristic SaaS */

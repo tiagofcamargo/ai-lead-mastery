@@ -1,15 +1,14 @@
 import goakira from "@/assets/clients/goakira.png";
-import marchon from "@/assets/clients/marchon.png";
 import drhair from "@/assets/clients/drhair.png";
 import hyundai from "@/assets/clients/hyundai.png";
 import sumire from "@/assets/clients/sumire.png";
 import oticasLuri from "@/assets/clients/oticas-luri.webp";
 import oralsin from "@/assets/clients/oralsin.webp";
 import magrass from "@/assets/clients/magrass.png";
+import "../index.css";
 
 const clients = [
   { name: "Grupo Goakira", logo: goakira },
-  { name: "Marchon Eyewear", logo: marchon },
   { name: "Dr. Hair Franchising", logo: drhair },
   { name: "Hyundai", logo: hyundai },
   { name: "Sumirê", logo: sumire },
@@ -35,20 +34,23 @@ const ClientsSection = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-          {clients.map((client) => (
-            <div
-              key={client.name}
-              className="group relative grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300"
-            >
-              <img
-                src={client.logo}
-                alt={client.name}
-                className="h-12 md:h-16 w-auto object-contain max-w-[150px]"
-              />
+        {/* CONTAINER MENOR SÓ PARA O CARROSSEL */}
+        <div className="mx-auto max-w-4xl">
+          <div className="marquee">
+            <div className="marquee-track">
+              {[...clients, ...clients].map((client, index) => (
+                <div key={index} className="marquee-item">
+                  <img
+                    src={client.logo}
+                    alt={client.name}
+                    className="logo-img"
+                  />
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
+
       </div>
     </section>
   );
